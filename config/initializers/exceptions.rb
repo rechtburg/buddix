@@ -7,5 +7,5 @@ class CustomForbidden < Exception
 end
 
 # ユーザー不正操作の時のエラー：400
-class CustomClientError < Exceptoin
+class CustomClientError < Exception
 end
