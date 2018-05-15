@@ -1,0 +1,7 @@
+title
+  - if @error_title
+    = @error_title + '-' + @root_title
+  - elsif @pre_title
+    = @pre_title + '-' + @root_title
+  - else
+    = page_title
